@@ -8,7 +8,7 @@ Hello, world!
 # hello world!
 ## hello world but heading 2!
 
-[Lab Report 1](https://github.com/elbbeele/cse15l-lab-reports/blob/main/lab-report-1-week-0.html)
+[Lab Report 1](https://github.com/elbbeele/cse15l-lab-reports/blob/main/lab-report-1-week-0.md)
 
 
 > just blocking this text box

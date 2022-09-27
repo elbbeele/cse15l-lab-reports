@@ -1,3 +1,3 @@
 
 
-![Image](https://github.com/elbbeele/cse15l-lab-reports/blob/main/newimage.PNG)
+![Image](https://elbbeele.github.io/cse15l-lab-reports/newimage.png)

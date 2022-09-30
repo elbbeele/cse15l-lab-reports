@@ -7,7 +7,7 @@
 1. First download VSCode through their website: [VSCode](https://code.visualstudio.com/)
 2. Once you downloaded VSCode, you may see a screen like this after choosing the settings you prefer (dark mode, light mode, etc)
 
-![Image]()
+![Image](https://elbbeele.github.io/cse15l-lab-reports/installingVS.png)
 
 
 ### *Remotely Connecting*
@@ -18,7 +18,8 @@
 4. Afterwards, it will ask for your password. It will be easier for you to write your password down somewhere else and copy/paste because there is no visibility for your password. 
 5. Once you are logged in, you will be on the remote server, and you will see something similar to the image below. 
 
-![Image]()
+![Image](https://elbbeele.github.io/cse15l-lab-reports/remoteConnect.png)
+![Image](https://elbbeele.github.io/cse15l-lab-reports/loggedIn.png)
 
 ### *Trying Some Commands*
 
@@ -35,7 +36,7 @@ cat /home/linux/ieng6/cs15lfa22/public/hello.txt
 ```
 3. These examples are shown in the image below!
 
-![Image]()
+![Image](https://elbbeele.github.io/cse15l-lab-reports/commandsEx.png)
 
 ### *Moving Files with scp*
 1. First create a new file in your client (your computer) called "WhereAmI.java"
@@ -56,7 +57,7 @@ class WhereAmI {
 javac WhereAmI.java
 java WhereAmI
 ```
-![Image]()
+![Image](https://elbbeele.github.io/cse15l-lab-reports/compileInClient.png)
 
 5. It is important to be able to copy files from your client to your server in case you need to access them in your server. You will realize that once you log in to your server, you will not be able to access "WhereAmI.java" because this file is in your client account. You can check this by using the command "ls" in your server account to check if the file exists or not
 6. In order to copy, use this command:
@@ -67,11 +68,11 @@ scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/
 7. Once you press enter, you will be asked to input the password for your server account. 
 8. Now try the "ssh" command to log into your server account and the "ls" command to check if you can see "WhereAmI.java" under your server account. It should look similar to the image below.
 
-![Image]()
+![Image](https://elbbeele.github.io/cse15l-lab-reports/scp.png)
 
 9. Once you see the file under your server account, you will be able to compile and run the file under your server. Please check the image below
 
-![Image]()
+![Image](https://elbbeele.github.io/cse15l-lab-reports/compileInServer.png)
 
 ### *Setting a SSH Key*
 
@@ -82,7 +83,7 @@ scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/
 5. It will then prompt you to "Enter passphrase (empty for no passphrase):". In this step, press enter twice. 
 6. You will then see something similar to the image below.
   
-![Image]()
+![Image](https://elbbeele.github.io/cse15l-lab-reports/sshKeyGen.png)
   
 7. Now, log into your server account with "ssh" and enter your password 
 8. Once you are on your server, type in command, "mkdir .ssh" and log out using "exit" command
@@ -92,7 +93,7 @@ scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/
   scp /Users/<username>/.ssh/id_rsa.pub cs15lfa22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
  ```
  
-![Image]()
+![Image](https://elbbeele.github.io/cse15l-lab-reports/scp.png)
  
   
 ### *Optimizing Remote Running*
@@ -103,4 +104,4 @@ scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/
 2. using multiple commands at once by separating them with ";"
 ```
 
-![Image]()
+![Image](https://elbbeele.github.io/cse15l-lab-reports/optimize.png)

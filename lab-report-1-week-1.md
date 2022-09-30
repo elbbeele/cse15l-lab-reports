@@ -96,4 +96,11 @@ scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/
  
   
 ### *Optimizing Remote Running*
+1. There are multiple ways to save time when using the terminal.
+2. A few ways are listed below:
+```
+1. Using the arrow keys to access previous commands you have already tried
+2. using multiple commands at once by separating them with ";"
+```
 
+![Image]()

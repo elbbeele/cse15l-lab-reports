@@ -105,3 +105,6 @@ scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/
 ```
 
 ![Image](https://elbbeele.github.io/cse15l-lab-reports/optimize.png)
+  
+  
+# Congratulations! You now know everything you need to know to sign into your server account!

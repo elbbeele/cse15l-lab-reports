@@ -1,35 +1,6 @@
 
-Hello, world!
+# Hello! Welcome to Elizabeth's CSE15L Lab Reports :)
 
-*Hello, world but in italic!*
+[Lab Report Week 0](https://elbbeele.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
 
-**Bold**
-
-# hello world!
-## hello world but heading 2!
-
-[Lab Report 1](https://elbbeele.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
-
-
-> just blocking this text box
-> and im lovin it :)
-
-
-* List
-* List hello
-* hello world!
-
-1. first
-2. second
-3. third
-
-horizontal line
----
-
-`inline code` hello world!
-
-``` 
-# code block
-just hello world!
-
-```
+[Lab Report 1 Week 1](https://elbbeele.github.io/cse15l-lab-reports/lab-report-1-week-1.html)

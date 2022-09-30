@@ -24,13 +24,15 @@
 
 1. Once you are logged in the server, you can try out some commands!
 2. Some examples you can try are:
-> cd~
-> cd
-> ls -lat
-> ls -a
-> ls /home/linux/cs15lfa22/cs15lfa22zz (where zz is another student’s account ID)
-> cp /home/linux/ieng6/cs15lfa22/public/hello.txt ~/
-> cat /home/linux/ieng6/cs15lfa22/public/hello.txt
+```
+cd~
+cd
+ls -lat
+ls -a
+ls /home/linux/cs15lfa22/cs15lfa22zz (where zz is another student’s account ID)
+cp /home/linux/ieng6/cs15lfa22/public/hello.txt ~/
+cat /home/linux/ieng6/cs15lfa22/public/hello.txt
+```
 3. These examples are shown in the image below!
 
 ![Image]()

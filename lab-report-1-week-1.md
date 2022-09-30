@@ -37,5 +37,63 @@ cat /home/linux/ieng6/cs15lfa22/public/hello.txt
 
 ![Image]()
 
+### *Moving Files with scp*
+1. First create a new file in your client (your computer) called "WhereAmI.java"
+2. Copy paste the content below into the file.
+```
+class WhereAmI {
+  public static void main(String[] args) {
+    System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.dir"));
+  }
+}
+```
+3. Use these commands to compile and run "WhereAmI.java" in your client account. You will see a result similar to the image below.
 
+```
+javac WhereAmI.java
+java WhereAmI
+```
+![Image]()
+
+5. It is important to be able to copy files from your client to your server in case you need to access them in your server. You will realize that once you log in to your server, you will not be able to access "WhereAmI.java" because this file is in your client account. You can check this by using the command "ls" in your server account to check if the file exists or not
+6. In order to copy, use this command:
+
+``` 
+scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/
+```
+7. Once you press enter, you will be asked to input the password for your server account. 
+8. Now try the "ssh" command to log into your server account and the "ls" command to check if you can see "WhereAmI.java" under your server account. It should look similar to the image below.
+
+![Image]()
+
+9. Once you see the file under your server account, you will be able to compile and run the file under your server. Please check the image below
+
+![Image]()
+
+### *Setting a SSH Key*
+
+1. It is often too time consuming to continue to copy/paste your password every time you try to log in or use the "scp" command. In this situation, we can set an empty password instead
+2. exit your server account by typing "exit" command 
+3. In your client account, type the command "ssh-keygen". Once you do, it will prompt you to "Enter file in which to save the key (/Users/<username>/.ssh/id-rsa):"
+4. Copy and paste the phrase inside the () and press enter
+5. It will then prompt you to "Enter passphrase (empty for no passphrase):". In this step, press enter twice. 
+6. You will then see something similar to the image below.
+  
+![Image]()
+  
+7. Now, log into your server account with "ssh" and enter your password 
+8. Once you are on your server, type in command, "mkdir .ssh" and log out using "exit" command
+9. once you are back on your client account, you will be able to use the "scp" or "ssh" command without having to copy and paste your password
+  
+```
+  scp /Users/<username>/.ssh/id_rsa.pub cs15lfa22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
+ ```
+ 
+![Image]()
+ 
+  
+### *Optimizing Remote Running*
 

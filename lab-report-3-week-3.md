@@ -29,9 +29,11 @@ This photo shows the items in the list that include the phrase that was inputted
 *Failure inducing input:* As the original array was being reversed, because the whole code was only working with one array, the switched elements were reswitched and doubled  instead of just reversed. 
 
 *Symptom:* The error message that popped up was an Assertion Error (Please check image below)
+
 ![Image](https://elbbeele.github.io/cse15l-lab-reports/arrayAssertionError.png)
 
 *Bug:* The code fix that was needed was to create a new array where all the numbers were reversed correctly, and then assign the values of the new array into the original array.
+
 ![Image](https://elbbeele.github.io/cse15l-lab-reports/ArrayReverseInPlaceFix.png)
 
 The connection between the symptom and the bug stems from trying to do everything with one single. Because it was continuously getting updated, the updated values were the only ones left in the array to “reverse.”
@@ -42,9 +44,11 @@ The connection between the symptom and the bug stems from trying to do everythin
 *Failure inducing input:* As the list was being filtered, the order of the list was messed up in a way that did not end up with the correct same order as they appeared in the inputted list. 
 
 *Symptom:* The error message that popped up in the terminal was an Assertion error. (Please check image below)
+
 ![Image](https://elbbeele.github.io/cse15l-lab-reports/assertionError.png)
 
 *Bug:* The code fix that was needed was to create a new array where all the numbers were reversed correctly, and then assign the values of the new array into the original array.
+
 ![Image](https://elbbeele.github.io/cse15l-lab-reports/ListFilterFix.png)
 
 The connection between the symptom and the bug stems from always adding the element that passed the checkString interface method at the front of the array instead of at the end. 

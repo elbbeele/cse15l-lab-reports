@@ -1,7 +1,7 @@
 # Week 5 Lab Report
 ## Investigating GREP command line
 
-### * -i: Searching without case*
+### *-i: Searching without case*
 
 '''
 (base) elizabethlee@ElizabethsMBP2 docsearch % grep -i "omari" ./technical/911report/chapter-1.txt

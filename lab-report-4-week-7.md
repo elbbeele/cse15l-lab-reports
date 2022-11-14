@@ -25,3 +25,7 @@ For the change in the photo above, this is the first occurance of "start" in the
 For this change, you can use pressing n to find the other occurances of "start". Once, found, you can delete the word using "dw" and enter insert mode using "i." After typing out the word "base," you can press esc to go back into normal mode.
 
 ## Part 2
+For the first option, it took me 30 seconds.
+For the second option, it took me 40 seconds. 
+  
+I think I would prefer to use vim because if the number of edits I had to make was more than one, vim would be a lot more time efficient and effective to use. This is because there are a lot of user friendly shortcuts in vim that can make editing a lot easier. Furthermore, there are more flexible ways to edit a code in vim than manually in VS Code, so I think I would prefer vim. I think once I get more comfortable with using vim in general, the time it takes for me to do these tasks would decrease exponentially.

@@ -77,6 +77,7 @@ fi
 
 Tracing for Example 2:
 - Standard output:
+
 ```
 JUnit version 4.13.2
 ..

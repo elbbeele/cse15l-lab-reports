@@ -85,10 +85,7 @@ Time: 0.01
 OK (2 tests)
 ```
 
-- Standard error:
-``` 
-empty
-```
+- Standard error: empty, no errors
 
 - The first if statement for checking if the correct file was submitted returned true because the student submission folder had the file with the correct name, therefore allowing this code to run. The second if statement also returned true because there were no failed tests that was contained in the text file from running the JUnit Tests. 
 - Because the two if statements both returned true, the else condition lines were not run because it didn't fit the criteria to be run. For example, the else statement for checking if the correct file was submitted wasn't checked because the first condition of having the correct file was passed. The second else statement was also not reached because all the test cases were passed. 

@@ -16,7 +16,7 @@ Type “base”
 <esc>
 Type ":wq"
 ````
-### Step 1: type "vim DocSearchServer.java" "<enter>"
+### Step 1: type "vim DocSearchServer.java" and press enter
 ![Image](https://elbbeele.github.io/cse15l-lab-reports/step1VIM.png)
   
   For this step, it enters the normal mode for VIM, allowing you to view the code in the terminal instead of opening the file directly on VS Code. 
@@ -41,7 +41,7 @@ Type ":wq"
   
   Now that the word "start" is deleted and we are in insert mode, we can start editing the file. We can directly type in "base" to change the variable.
   
-### Step 6: Press "<esc>"
+### Step 6: Press escape
 ![Image](https://elbbeele.github.io/cse15l-lab-reports/step6VIM.png)
   
   In order to find the other occurances of "Start", we have to use the command in step 7. However, we cannot use these commands for what we intend for it to do in the "insert" mode of vim. We have to get back into the "normal" mode. In order to do that, we can just press the <esc> button.

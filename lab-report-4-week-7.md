@@ -63,7 +63,7 @@ Type ":wq"
 ### Step 9: Type ":wq"
 ![Image](https://elbbeele.github.io/cse15l-lab-reports/step9VIM.png)
   
-  For this step, you are saving your progress and exiting out of vim. Once you exit out of vim, you will see your terminal again like the photo above.
+  This step is for when you are completely done with all the changes you want to make on your file. You can save your progress and exit out of vim by using this step. Once you exit out of vim, you will see your terminal again like the photo above.
 
 
 ## Part 2

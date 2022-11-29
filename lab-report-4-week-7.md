@@ -21,7 +21,7 @@ Type ":wq"
   
   For this step, it enters the normal mode for VIM, allowing you to view the code in the terminal instead of opening the file directly on VS Code. 
   
-### Step 2: type "/start" "<enter>"
+### Step 2: type "/start" and press enter
 ![Image](https://elbbeele.github.io/cse15l-lab-reports/step2VIM.png)
   
   For this step, it searches for the first occurance of "start" in the file on vim. Because we haven't asked to specifically be in a different mode of VIM, we are still in normal mode, which allows us to use these short cuts to find specific words or characters in the file. 

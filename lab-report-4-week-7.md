@@ -16,13 +16,55 @@ Type “base”
 <esc>
 Type ":wq"
 ````
-![Image](https://elbbeele.github.io/cse15l-lab-reports/firstBase.png)
-
-For the change in the photo above, this is the first occurance of "start" in the file, so commands 1-5 led up to this change. After getting into the vim of the file, it starts off as normal mode of vim. After typing "/start <enter>" the cursor finds the first occurance of "start" in the file. When you type "dw", also in normal mode, it deletes the whole word. Now, you can switch into insert mode to type in the word "base". To do that, you can press i to enter the mode, and type out the word immediately.
-
-![Image](https://elbbeele.github.io/cse15l-lab-reports/secondBase.png)
+### Step 1: type "vim DocSearchServer.java" <enter>
+![Image](https://elbbeele.github.io/cse15l-lab-reports/step1VIM.png)
   
-For this change, you can use pressing n to find the other occurances of "start". Once, found, you can delete the word using "dw" and enter insert mode using "i." After typing out the word "base," you can press esc to go back into normal mode.
+  For this step, it enters the normal mode for VIM, allowing you to view the code in the terminal instead of opening the file directly on VS Code. 
+  
+### Step 2: type "/start" <enter>
+![Image](https://elbbeele.github.io/cse15l-lab-reports/step2VIM.png)
+  
+  For this step, it searches for the first occurance of "start" in the file on vim. Because we haven't asked to specifically be in a different mode of VIM, we are still in normal mode, which allows us to use these short cuts to find specific words or characters in the file. 
+  
+### Step 4: type "dw"
+![Image](https://elbbeele.github.io/cse15l-lab-reports/step3VIM.png) 
+  
+  For this command, it deletes the whole word that the cursor is on before the command. By doing so, we can save time instead of deleting each character of "start". 
+  
+### Step 4: press i
+![Image](https://elbbeele.github.io/cse15l-lab-reports/step4VIM.png)  
+  
+  For this step, it enters insert mode of vim, which allows you to change the actual code of the file by deleting, inserting, replacing, etc. By doing so, we can start changing the variable "start" to be called "base".
+
+### Step 5: Type "base"
+![Image](https://elbbeele.github.io/cse15l-lab-reports/step5VIM.png) 
+  
+  Now that the word "start" is deleted and we are in insert mode, we can start editing the file. We can directly type in "base" to change the variable.
+  
+### Step 6: <esc>
+![Image](https://elbbeele.github.io/cse15l-lab-reports/step6VIM.png)
+  
+  In order to find the other occurances of "Start", we have to use the command in step 7. However, we cannot use these commands for what we intend for it to do in the "insert" mode of vim. We have to get back into the "normal" mode. In order to do that, we can just press the <esc> button.
+
+### Step 7: Press N, "dw", i 
+![Image](https://elbbeele.github.io/cse15l-lab-reports/step7part1VIM.png)
+
+  For this step, the user can repeat these steps for each occurance of "Start" until they finish changing all the "starts" they want to change to "base." By pressing N in normal mode (you can find the next occurance of "start" that you want to change. 
+ 
+![Image](https://elbbeele.github.io/cse15l-lab-reports/step7part2VIM.png)
+ 
+  The photo above shows the next part of step 7, which is also deleting the whole word of "Start" inorder to change it to "base."
+ 
+### Step 8: Type "base"
+![Image](https://elbbeele.github.io/cse15l-lab-reports/step8VIM.png)
+  
+  For this step, you are just typing out "base" again in insert mode after step 7 of deleting the word. 
+
+### Step 9: Type ":wq"
+![Image](https://elbbeele.github.io/cse15l-lab-reports/step9VIM.png)
+  
+  For this step, you are saving your progress and exiting out of vim. Once you exit out of vim, you will see your terminal again like the photo above.
+
 
 ## Part 2
 For the first option, it took me 30 seconds.
